@@ -54,7 +54,7 @@ public class A1Adept {
 	}
 		
 		
-	public static int findLargestValue(double[] vals) {
+	public static double findLargestValue(double[] vals) {
 		int startMax = 0;
 		for (int i=0; i<vals.length;i++) {
 			if (vals[i] > startMax) {
@@ -64,7 +64,7 @@ public class A1Adept {
 		return startMax;
 	}
 	
-	public static int findSmallestValue(double[] vals) {
+	public static double findSmallestValue(double[] vals) {
 		int startMin = 0;
 		for (int i=0; i<vals.length;i++) {
 			if(vals[i] < vals[vals.length-1]) {
