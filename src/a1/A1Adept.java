@@ -48,7 +48,7 @@ public class A1Adept {
 		System.out.println(totalPrice[2]);
 		System.out.println(firstName[1]);
 		*/
-		System.out.println("Biggest: " + firstName[biggest] + " " + lastName[biggest] + "( " + String.format("%.2f", totalPrice[biggest]) + ")" );
+		System.out.println("Biggest: " + firstName[biggest] + " " + lastName[biggest] + "(" + String.format("%.2f", totalPrice[biggest]) + ")" );
 		System.out.println("Smallest: " + firstName[smallest] + " " + lastName[smallest] + "(" + String.format("%.2f", totalPrice[smallest]) + ")" );
 		System.out.println("Average: " + String.format("%.2f", avg));
 	}
